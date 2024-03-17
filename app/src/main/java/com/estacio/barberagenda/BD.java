@@ -57,7 +57,6 @@ public class BD {
                 null
         );
         return cursor;
-
     }
 
     public static void excluirAgendamento(String id, Activity act){

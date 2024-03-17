@@ -41,7 +41,6 @@ public class tela_consultar extends AppCompatActivity {
         }
     }
 
-
     public void mostrarDados(){
         tv_nome.setText(cursor.getString(cursor.getColumnIndex("nome")));
         tv_telefone.setText(cursor.getString(cursor.getColumnIndex("fone")));

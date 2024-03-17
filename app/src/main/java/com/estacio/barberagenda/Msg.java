@@ -12,5 +12,4 @@ public class Msg {
         adb.setNeutralButton("OK", null);
         adb.show();
     }
-
 }

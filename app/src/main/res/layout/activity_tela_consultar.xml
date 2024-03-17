@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/midnightblue"
+    tools:context=".tela_consultar">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="48dp"
+        android:gravity="center"
+        android:paddingTop="20dp"
+        android:text="@string/tela_consulta"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nome_do_cliente"
+        android:minHeight="48dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textColor="#B0BEC5"
+        android:textColorHint="#B0BEC5"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tv_telefone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="phone"
+        android:hint="@string/telefone_do_cliente"
+        android:minHeight="48dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textColor="#B0BEC5"
+        android:textColorHint="#B0BEC5"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tv_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/data_agendada"
+        android:minHeight="48dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textColor="#B0BEC5"
+        android:textColorHint="#B0BEC5"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tv_hora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hora_marcada"
+        android:minHeight="48dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textColor="#B0BEC5"
+        android:textColorHint="#B0BEC5"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="116dp"
+        android:orientation="horizontal"
+        android:paddingTop="40sp">
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/bt_anterior"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="agendadoAnterior"
+            android:text="@string/anterior"
+            tools:ignore="OnClick,UsingOnClickInXml" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/bt_excluir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="excluir"
+            android:text="@string/excluir"
+            tools:ignore="OnClick,UsingOnClickInXml" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/bt_proximo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="proximoAgendado"
+            android:text="@string/proximo"
+            tools:ignore="OnClick,UsingOnClickInXml" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bt_voltar_consulta"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:insetLeft="20dp"
+            android:insetRight="20dp"
+            android:onClick="finalizar_consultar"
+            android:text="@string/voltar"
+            tools:ignore="OnClick,UsingOnClickInXml" />
+
+    </LinearLayout>
+
+</LinearLayout>

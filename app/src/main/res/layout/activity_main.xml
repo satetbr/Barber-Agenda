@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/midnightblue"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/tv_tela1"
+       android:textSize="36sp"
+       android:textColor="@color/white"
+       android:textStyle="bold"
+       android:gravity="center"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/logobarber1"
+        android:contentDescription="@string/rosto_do_barbeiro" />
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:insetLeft="40dp"
+        android:insetRight="40dp"
+        android:onClick="abrir_tela_agendar"
+        android:text="@string/avan_ar"
+        tools:ignore="UsingOnClickInXml" />
+
+</LinearLayout>

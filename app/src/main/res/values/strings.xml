@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">AGENDA DO BESSA</string>
+    <string name="agendamento">Agendamento</string>
+    <string name="hint_et_1">Digite o nome do cliente</string>
+    <string name="hint_et_2">Digite o número do cliente</string>
+    <string name="data">Data</string>
+    <string name="hora">Hora</string>
+    <string name="consultar">Consultar</string>
+    <string name="voltar">VOLTAR</string>
+    <string name="agendar">Agendar</string>
+    <string name="tv_tela1">Agenda do Bessa</string>
+    <string name="rosto_do_barbeiro">ROSTO DO BARBEIRO</string>
+    <string name="avan_ar">AVANÇAR</string>
+    <string name="tela_consulta">Tela Consulta</string>
+    <string name="nome_do_cliente">Nome do cliente</string>
+    <string name="telefone_do_cliente">Telefone do cliente</string>
+    <string name="data_agendada">Data agendada</string>
+    <string name="hora_marcada">Hora marcada</string>
+    <string name="anterior">Anterior</string>
+    <string name="excluir">excluir</string>
+    <string name="proximo">proximo</string>
+</resources>
